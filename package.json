@@ -1,0 +1,31 @@
+{
+  "name": "repeat-wikistack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e html,js,css /Users/Rachel/Documents/gracehopper/repeat-wikistack/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rarkebauer/wikistack-repeat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rarkebauer/wikistack-repeat/issues"
+  },
+  "homepage": "https://github.com/rarkebauer/wikistack-repeat#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1",
+    "nunjucks": "^3.0.1",
+    "pg": "^7.4.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.22.6"
+  }
+}
